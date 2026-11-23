@@ -457,6 +457,15 @@ body {
     margin-top: 8px; /* Ajoute un petit espace vertical entre chaque élément de la liste */
 }
 
+/* Décalage des listes à puces à l'intérieur des cartes de formations */
+.formation-card ul {
+    padding-left: 25px; /* Vous pouvez augmenter (ex: 30px) ou baisser selon l'espace souhaité */
+}
+
+.formation-card li {
+    margin-top: 8px; /* Ajoute un petit espace vertical entre chaque élément de la liste */
+}
+
 /* Grilles compétences */
 .skills-grid {
     display: grid;
