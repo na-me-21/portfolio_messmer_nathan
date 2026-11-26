@@ -110,7 +110,18 @@
                             <li>Optimisation de ligne de production fromagère : standardisation, conceptualisation et automatisation.</li>
                             <li>Modélisation 3D et 2D de moule à fromage (Bleu d'Auverge, Fourme d'Ambert, Bleu de Laqueuille, Gaperon, ...).</li>
                         </ul>
-                        <span class="solution">Solutions techniques</span>
+                        
+
+                    </div>
+
+                    <div class="company-logo">
+                        <a href="https://www.fromages-laqueuille.fr/" target="_blank">
+                            <img src="Logo-La-Meme.jpg" alt="Logo Société Laitière de Laqueuille">
+                        </a>
+                    </div>
+
+                    <div class="tech-solutions-box">
+                        <h5>Solutions techniques</h5>
                         <ul>
                             <li>Dialogue avec les équipes</li>
                             <li>Établissement de plans d'améliorations</li>
@@ -119,14 +130,6 @@
                             <li>Utilisation de 3Dexpérience et AutoCad</li>
 
                         </ul>
-
-                    </div>
-
-                    <!-- Le logo à droite -->
-                    <div class="company-logo">
-                        <a href="https://www.fromages-laqueuille.fr/" target="_blank">
-                            <img src="Logo-La-Meme.jpg" alt="Logo Société Laitière de Laqueuille">
-                        </a>
                     </div>
                 </div>
 
@@ -141,10 +144,22 @@
                             <li>Conceptualisation d'un Workshop</li>
                         </ul>
                     </div>
+
                     <div class="company-logo">
                         <a href="https://www.aau.edu.et/" target="_blank">
                             <img src="CTBE_AAU.jpg" alt="Logo Addis Ababa University">
                         </a>
+                    </div>
+
+                    <div class="tech-solutions-box">
+                        <h5>Solutions techniques</h5>
+                        <ul>
+                            <li>Dialogue avec l'équipe professorale et les étudiants</li>
+                            <li>Création de contenu pédagogique via python et le code UR-Script</li>
+                            <li>Gestion de projet</li>
+                            <li>Utilisation de 3Dexpérience</li>
+
+                        </ul>
                     </div>
                 </div>
 
@@ -157,10 +172,19 @@
                             <li>Préparation des commandes, service et accueil des clients, gestion d'équipe.</li>
                         </ul>
                     </div>
+
                     <div class="company-logo">
                         <a href="https://www.mcdonalds.com/" target="_blank">
                             <img src="mcdonald.jpg" alt="Logo McDonald's">
                         </a>
+                    </div>
+
+                    <div class="tech-solutions-box">
+                        <h5>Solutions techniques</h5>
+                        <ul>
+                            <li>Gestion d'équipe, de stock et de caisse</li>
+
+                        </ul>
                     </div>
                 </div>
 
@@ -177,6 +201,38 @@
                         <a href="https://www.schaeffler.fr/fr/" target="_blank">
                             <img src="Schaeffler-Logo.jpg" alt="Logo Schaeffler">
                         </a>
+                    </div>
+                </div>
+
+                <div class="formation-card">
+                    <div class="formation-content">
+                        <span class="date">Étés 2023 et 2024</span>
+                        <h4>Missions d'intérim - Intérim</h4>
+                        <div class="interim-grid">
+                            <!-- Cartouche 1 -->
+                            <div class="interim-mini-card">
+                                <p><span><a href="https://fonderie-industrielle.eu/" target="_blank">Fonderie de Niederbronn</a></span>, <br>Niederbronn-les-Bains</p>
+                                <div class="company-logo"><a href="https://fonderie-industrielle.eu/" target="_blank"><img src="fonderie.png" alt="Logo Fonderie de Niederbronn"></a></div>
+                            </div>
+
+                            <!-- Cartouche 2 -->
+                            <div class="interim-mini-card">
+                                <p><span><a href="https://www.rseeds.fr/" target="_blank">R'seeds</a></span>, <br>Haguenau</p>
+                                <div class="company-logo"><a href="https://www.rseeds.fr/" target="_blank"><img src="rseeds.png" alt="Logo R'seeds"></a></div>
+                            </div>
+
+                            <!-- Cartouche 3 -->
+                            <div class="interim-mini-card">
+                                <p><span><a href="https://www.buerstner.com/fr/buerstner" target="_blank">Bürstner</a></span>, <br>Wissembourg</p>
+                                <div class="company-logo"><a href="https://www.buerstner.com/fr/buerstner" target="_blank"><img src="burstner.jpg" alt="Logo Bürstner"></a></div>
+                            </div>
+
+                            <!-- Cartouche 4 -->
+                            <div class="interim-mini-card">
+                                <p><span><a href="https://www.naturalvi.com/" target="_blank">Naturalvi</a></span>, <br>Haguenau</p>
+                                <div class="company-logo"><a href="https://www.naturalvi.com/" target="_blank"><img src="naturalvi.jpg" alt="Logo Naturalvi"></a></div>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
@@ -441,6 +497,16 @@
             document.getElementById(tabId).classList.add('active');
             event.currentTarget.classList.add('active');
         }
+
+        // Désactive la restauration automatique du scroll par le navigateur au rechargement
+        if ('scrollRestoration' in history) {
+            history.scrollRestoration = 'manual';
+        }
+
+        // Ramène automatiquement en haut de la page au chargement / actualisation
+        window.addEventListener('DOMContentLoaded', () => {
+            window.scrollTo(0, 0);
+        });
 
         // Sélectionne automatiquement toutes les images qui ont la classe "photo"
         document.querySelectorAll('.photo').forEach(image => {
