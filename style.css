@@ -228,7 +228,7 @@ body {
     background: #f8f9fa;
     padding: 20px;
     border-radius: 8px;
-    border-left: 4px solid #0056b3;
+    border-left: 4px solid #0068d8;
 }
 
 .info-box ul {
@@ -238,6 +238,11 @@ body {
 
 .info-box li {
     margin-bottom: 6px;
+}
+
+.info-box h4 {
+    color: #004c9d;
+    margin-bottom: 8px;
 }
 
 .tags-container {
@@ -282,6 +287,12 @@ body {
     color: #0056b3;
     font-weight: bold;
     margin-bottom: 4px;
+}
+
+.solution {
+    font-size: 0.9rem;
+    margin-top: 15px;
+    font-weight: bold;
 }
 
 .timeline-item h4 {
@@ -352,7 +363,7 @@ body {
 }
 
 .project-card h4 {
-    color: #155724;
+    color: #1e7d34;
     margin-bottom: 8px;
 }
 
@@ -482,6 +493,7 @@ body {
 
 .skill-card h4 {
     margin-bottom: 8px;
+    color: #bc8f06;
 }
 
 /* Bouton CV */
